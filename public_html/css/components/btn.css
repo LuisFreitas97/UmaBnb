@@ -1,0 +1,24 @@
+.btn {
+        width: auto;
+        height: auto;
+        min-width: 3vw;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        padding: 1vw;
+        background-color: black;
+}
+.btn:hover {
+        background-color: gray;
+        color: black;
+}
+.btn-primary {
+        background-color: dodgerblue;
+}
+.btn-danger {
+        background-color: red;
+}
+.btn-success {
+        background-color: springgreen;
+}

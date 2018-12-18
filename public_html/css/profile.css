@@ -1,0 +1,25 @@
+.profile-pic {
+        width: auto !important;
+        height: 200px;
+        padding: 5px;
+}
+.profile-pic-selector {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+}
+input[type='file'] {
+        display: none;
+}
+.profile-pic-selector>.btn {
+        width: auto !important;
+        position: absolute;
+        top: 40%;
+}
+table {
+        width: 100%;
+}
+.confirm {
+        display: flex;
+}

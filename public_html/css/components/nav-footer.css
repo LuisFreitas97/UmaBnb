@@ -1,0 +1,102 @@
+nav {
+        color: white;
+        height: 64px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        width: calc(100% - 10vw);
+}
+nav>div {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+}
+nav>div * {
+        padding: 0.5vh;
+}
+nav, footer {
+        background: #343a40 !important;
+}
+nav *, footer * {
+        color: white;
+}
+footer {
+        position: absolute;
+        height: 64px;
+        width: 100%;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+nav>div>.dropdown>img {
+        max-width: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
+}
+.dropdown-content {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        right: 0;
+        z-index: 99999;
+        width: auto;
+        background: gray;
+        top: 32px;
+}
+.dropdown-content a {
+        color: white;
+        padding: 25px;
+        text-decoration: none;
+}
+.dropdown-content a:hover {
+        background: white;
+        color: gray;
+}
+.dropdown:hover .dropdown-content {
+        display: flex;
+}
+.dropdown {
+        display: flex;
+        cursor: pointer;
+}
+nav>a:hover {
+        color: white;
+        text-decoration: none;
+}
+nav>a>img {
+        max-width: 30px;
+        min-width: 30px;
+        max-height: 30px;
+        min-height: 30px;
+        padding-right: 2vw;
+}
+nav>a {
+        display: flex;
+}
+@media only screen and (max-width: 400px) {
+        nav>a {
+                font-size: 0 !important;
+        }
+        nav>h1 {
+                display: none;
+        }
+}
+nav>h1 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+}

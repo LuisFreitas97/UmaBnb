@@ -1,0 +1,24 @@
+.adcard-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1000;
+        width: 40vw;
+        text-align: center;
+}
+.adcard-actions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1000;
+}
+.row.shadow.bg-white div, img {
+        max-height: 300px;
+        height: 100%;
+}
+.none {
+        width: auto !important;
+}
+form {
+        display: none;
+}

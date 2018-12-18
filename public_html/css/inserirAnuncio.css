@@ -1,0 +1,10 @@
+.card {
+        flex-direction: column !important;
+        text-align: center;
+}
+.card>div {
+        width: 100%;
+}
+.btn-success[type='submit'] {
+        display: unset !important;
+}

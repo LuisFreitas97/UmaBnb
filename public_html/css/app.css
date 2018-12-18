@@ -1,0 +1,90 @@
+@import url("components/slides.css");
+@import url("components/tabs.css");
+@import url("components/btn.css");
+@import url("components/nav-footer.css");
+html {
+        position: relative;
+        min-height: 100%;
+}
+* {
+        font-family: Nunito, sans-serif;
+        font-size: 2.5vh !important;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+}
+html, body {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+}
+.containerImage {
+        position: relative;
+        width: 150px;
+        height: 150px;
+}
+.containerImage .bDeleteImg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+}
+tr>td * {
+        width: 100% !important;
+}
+.dropdown-item>span {
+        font-size: calc(12px + .5vw) !important;
+}
+. .tab-pane:not(.active) {
+        display: none;
+}
+.map {
+        width: 100%;
+        height: 300px;
+}
+html:after {
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-image: url('../img/background.jpg');
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        z-index: -1;
+}
+section {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 10vh;
+        padding-bottom: 30vh;
+}
+.card {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 1%;
+        margin-top: 3%;
+        min-height: 30vh;
+        align-items: center;
+}
+table {
+        width: 100%;
+        text-align: left;
+}
+form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+}
+form>div {
+        display: flex;
+}
+.leaflet-bottom {
+        display: none;
+}

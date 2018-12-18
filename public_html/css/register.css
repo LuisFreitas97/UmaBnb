@@ -1,0 +1,7 @@
+.card>form>div {
+        justify-content: space-between;
+        width: 100%;
+}
+input {
+        width: 100%;
+}
